@@ -8,151 +8,57 @@ INFO:root:[green]User:
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:{"name":"pdf_read", "arguments":{
-  "pdf_file_path": "Pdf_Read_Tester.pdf"
+INFO:root:{"name":"img_to_pdf", "arguments":{
+  "img_path": "sampleimage.png",
+  "pdf_path": "sampleimagepdf.pdf"
 }}
 
-INFO:root:Calling function: pdf_read ...
+INFO:root:Calling function: img_to_pdf ...
 INFO:root:Done
 INFO:root:--------------------
-INFO:root:PDF_READ TESTING 
-Sample pdf ﬁle to be read. 
-Contains information about nothing. 
-This ﬁle is to test if the agent is e Ưectively able to read the contents of the pdf ﬁle.  
-What is Lorem Ipsum? 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
-the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-type and scrambled it to make a type specimen book. It has survived not only ﬁve centuries, but 
-also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
-with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
- 
-Why do we use it? 
-It is a long established fact that a reader will be distracted by the readable content of a page when 
-looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
-model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
-versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
-humour and the like). 
- 
- 
-Where does it come from? 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
-classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin 
-professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
-consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical 
-literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 
-1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 
-45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The ﬁrst 
-line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
- 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
-in their exact original form, accompanied by English versions from the 1914 translation by H. 
-Rackham. 
-
- 
-Where can I get some? 
-There are many variations of passages of Lorem Ipsum available, but the majority have su Ưered 
-alteration in some form, by injected humour, or randomised words which don't look even slightly 
-believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
-anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet 
-tend to repeat predeﬁned chunks as necessary, making this the ﬁrst true generator on the Internet. 
-It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, 
-to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always 
-free from repetition, injected humour, or non-characteristic words etc. 
- 
-End of testing. 
+INFO:root:succesfully converted image to pdf in sampleimagepdf.pdf
 INFO:root:--------------------
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:The content of the PDF file "Pdf_Read_Tester.pdf" is as follows:
-
-"PDF_READ TESTING 
-Sample pdf file to be read. 
-Contains information about nothing. 
-This file is to test if the agent is effectively able to read the contents of the pdf file.  
-
-What is Lorem Ipsum? 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-
-Why do we use it? 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
-
-Where does it come from? 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. 
-
-Where can I get some? 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. 
-
-End of testing."
-
-This document is a test file containing Lorem Ipsum text, which is a type of placeholder text used in the publishing industry. It discusses the history and usage of Lorem Ipsum.
+INFO:root:I have successfully converted the image 'sampleimage.png' to a PDF file. You can find the PDF file at 'sampleimagepdf.pdf'.
 INFO:root:Done
 INFO:root:[green]User: 
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:You're welcome! If you have any other requests or need further assistance, feel free to ask.
+INFO:root:{"name":"img_to_pdf", "arguments":{'img_path': 'sampleimage2.jpg', 'pdf_path': 'sampleimage2pdf.pdf'}}
+
+INFO:root:Calling function: img_to_pdf ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:succesfully converted image to pdf in sampleimage2pdf.pdf
+INFO:root:--------------------
+INFO:root:my_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_scholar_agent: 
+INFO:root:I have successfully converted the image 'sampleimage2.jpg' to a PDF file named 'sampleimage2pdf.pdf'.
 INFO:root:Done
 INFO:root:[green]User: 
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:{"name":"pdf_read", "arguments":{'pdf_file_path': 'Pdf_Read_Test.pdf'}}
+INFO:root:You're welcome! If you have any other requests, feel free to ask.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:my_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_scholar_agent: 
+INFO:root:{"name":"pdf_read", "arguments":{'pdf_file_path': 'sampleimage2pdf.pdf'}}
 
 INFO:root:Calling function: pdf_read ...
 INFO:root:Done
 INFO:root:--------------------
-INFO:root:This is a test to make sure that the pdf_read plugin works ﬁne. It contains sample text generated 
-from lorem ipsum to compare and check. 
-What is Lorem Ipsum? 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
-the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-type and scrambled it to make a type specimen book. It has survived not only ﬁve centuries, but 
-also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
-with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
- 
-Why do we use it? 
-It is a long established fact that a reader will be distracted by the readable content of a page when 
-looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
-model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
-versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
-humour and the like). 
-End of the ﬁle. 
+INFO:root:
 INFO:root:--------------------
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:The content of the PDF file "Pdf_Read_Test.pdf" is as follows:
-
-This is a test to make sure that the pdf_read plugin works fine. It contains sample text generated from lorem ipsum to compare and check. 
-
-What is Lorem Ipsum? 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-
-Why do we use it? 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
-
-End of the file.
-INFO:root:Done
-INFO:root:[green]User: 
-INFO:root:my_scholar_agent is thinking...
-INFO:root:Done
-INFO:root:[blue]my_scholar_agent: 
-INFO:root:According to the PDF, Lorem Ipsum originated as a standard dummy text for the printing and typesetting industry since the 1500s. It was created when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived five centuries and the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-INFO:root:Done
-INFO:root:[green]User: 
-INFO:root:my_scholar_agent is thinking...
-INFO:root:Done
-INFO:root:[blue]my_scholar_agent: 
-INFO:root:Lorem Ipsum became popular in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. It gained more popularity with desktop publishing software like Aldus PageMaker which included versions of Lorem Ipsum.
+INFO:root:I'm sorry, but as the PDF was converted from an image, it doesn't contain any readable text.
 INFO:root:Done
 INFO:root:[green]User: 
