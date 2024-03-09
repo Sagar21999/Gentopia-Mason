@@ -64,4 +64,25 @@ Sometimes an agent can upset you. To wipe it out completely,
 ```
 ./delete_agent <your_agent_name> 
 ```
+## Build your own agent - ImgToPdf
+Custom made tool to convert Images in .png or .jpg format into a pdf file.
 
+Implemented with the scholar agent : my_scholar_agent.
+
+Makes use of the img2pdf library. Added to requirements.txt
+
+To install it :
+```
+pip install img2pdf
+```
+
+Example:
+```
+User: can you convert the image into pdf Sampleimage.png sampleimagepdf.pdf
+
+Response: succesfully converted image to pdf in sampleimagepdf.pdf
+```
+This is an attempt at implementing a tool-augmented LLM agent for
+positive use. 
+
+The code for the implementation is included in the file : [img_to_pdf.py](./Gentopia/gentopia/tools/img_to_pdf.py) in the [Gentopia/gentopia/tools](./Gentopia/gentopia/tools) folder.
