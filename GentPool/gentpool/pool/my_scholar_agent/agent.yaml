@@ -8,6 +8,8 @@ target_tasks:
   - find papers that cite the target paper
   - find papers that relevant to a topic
   - find scholars that have the queried research interests
+  - search google
+  - read pdf
 prompt_template: !prompt VanillaPrompt
 llm: 
   model_name: gpt-4-0613
@@ -26,3 +28,4 @@ plugins:
   - name: search_cite_paper
   - name: write_file
   - name: google_search
+  - name: pdf_read

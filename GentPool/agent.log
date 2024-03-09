@@ -8,90 +8,151 @@ INFO:root:[green]User:
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:{"name":"google_search", "arguments":{
-  "query": "George Mason NLP group"
+INFO:root:{"name":"pdf_read", "arguments":{
+  "pdf_file_path": "Pdf_Read_Tester.pdf"
 }}
 
-INFO:root:Calling function: google_search ...
+INFO:root:Calling function: pdf_read ...
 INFO:root:Done
 INFO:root:--------------------
-INFO:root:SearchResult(url=https://nlp.cs.gmu.edu/, title=George Mason NLP, description=Our group works on integrating NLP systems into the documentation workflow, aiming to speed-up the process and help the work of field linguists and language ...)
+INFO:root:PDF_READ TESTING 
+Sample pdf ﬁle to be read. 
+Contains information about nothing. 
+This ﬁle is to test if the agent is e Ưectively able to read the contents of the pdf ﬁle.  
+What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+type and scrambled it to make a type specimen book. It has survived not only ﬁve centuries, but 
+also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+ 
+Why do we use it? 
+It is a long established fact that a reader will be distracted by the readable content of a page when 
+looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
+model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
+versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
+humour and the like). 
+ 
+ 
+Where does it come from? 
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
+classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin 
+professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical 
+literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 
+1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 
+45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The ﬁrst 
+line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
+ 
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+in their exact original form, accompanied by English versions from the 1914 translation by H. 
+Rackham. 
 
-SearchResult(url=https://cs.gmu.edu/~antonis/author/george-mason-nlp/, title=George Mason NLP, description=The NLP group at George Mason Computer Science is interested in all aspects of NLP, with a focus on building tools for under-served languages. We are ...)
-
-SearchResult(url=https://nlp.cs.gmu.edu/author/antonios-anastasopoulos/, title=Antonios Anastasopoulos - George Mason NLP, description=Antonis Anastasopoulos is an assistant professor at the Computer Science department at George Mason University. He is also a Collaborating Senior Researcher ...)
-
-SearchResult(url=https://nlp.cs.gmu.edu/author/george-mason-nlp/, title=George Mason NLP - George Mason University, description=The NLP group at George Mason Computer Science is interested in all aspects of NLP, with a focus on building tools for under-served languages, and ...)
-
-SearchResult(url=https://twitter.com/GeorgeMasonNLP, title=George Mason NLP Group (@GeorgeMasonNLP) ..., description=NLP Group at @GMUCompSci @GeorgeMasonU.)
-
-SearchResult(url=https://nlp.cs.gmu.edu/course/cs678-fall22/, title=CS678 Advanced Natural Language Processing, description=Aug 8, 2022 — Advanced Natural Language Processing course at George Mason CS.)
-
-SearchResult(url=https://littleyuyu.github.io/, title=Ziyu Yao's Personal Website, description=Hello! I am an Assistant Professor of the Department of Computer Science at George Mason University, where I co-lead the George Mason NLP group.)
-
-SearchResult(url=https://nlp.cs.gmu.edu/project/page/2/, title=Projects - George Mason NLP, description=Our group works on integrating NLP systems into the documentation workflow, aiming to speed-up the process and help the work of field linguists and language ...)
-
-SearchResult(url=https://www.kevinlybarger.me/, title=Kevin Lybarger, description=... George Mason University, specializing in machine learning and natural language processing (NLP). He has an established track record in clinical informatics ...)
-
-SearchResult(url=https://groups.google.com/g/women-in-machine-learning/c/nv8hKq8Yypg, title=Mid-Atlantic NLP Student Colloquium | Deadline Mar 24, description=The 10th annual Mid-Atlantic Student Colloquium on Speech, Language, and Learning (MASC-SLL) will be hosted at George Mason University (Arlington campus), ...)
-
-SearchResult(url=https://twitter.com/GMUCompSci, title=George Mason Computer Science Department, description=George Mason Computer Science Department reposted · Ziyu Yao at EMNLP'23 · @ZiyuYao. ·. Jul 9, 2023. Excited to share 5 papers from GMU NLP Group at #ACL2023NLP ...)
-
-SearchResult(url=https://mainarke.github.io/ad/Fall22English.html, title=GMU-CS Recruitment Ad, description=The NLP group at GMU CS (https://nlp.cs.gmu.edu/) conducts research covering a wide range of topics such as machine translation, multilingual NLP, low ...)
+ 
+Where can I get some? 
+There are many variations of passages of Lorem Ipsum available, but the majority have su Ưered 
+alteration in some form, by injected humour, or randomised words which don't look even slightly 
+believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet 
+tend to repeat predeﬁned chunks as necessary, making this the ﬁrst true generator on the Internet. 
+It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, 
+to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always 
+free from repetition, injected humour, or non-characteristic words etc. 
+ 
+End of testing. 
 INFO:root:--------------------
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:The Natural Language Processing (NLP) group at George Mason University is interested in all aspects of NLP, with a particular focus on building tools for under-served languages. They work on integrating NLP systems into the documentation workflow, aiming to speed up the process and assist the work of field linguists and language experts. 
+INFO:root:The content of the PDF file "Pdf_Read_Tester.pdf" is as follows:
 
-The group is led by several professors including Antonis Anastasopoulos and Ziyu Yao. They offer courses in Advanced Natural Language Processing and conduct research on a wide range of topics such as machine translation, multilingual NLP, and more. 
+"PDF_READ TESTING 
+Sample pdf file to be read. 
+Contains information about nothing. 
+This file is to test if the agent is effectively able to read the contents of the pdf file.  
 
-For more detailed information, you can visit their official website [here](https://nlp.cs.gmu.edu/).
+What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+
+Why do we use it? 
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+
+Where does it come from? 
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. 
+
+Where can I get some? 
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. 
+
+End of testing."
+
+This document is a test file containing Lorem Ipsum text, which is a type of placeholder text used in the publishing industry. It discusses the history and usage of Lorem Ipsum.
 INFO:root:Done
 INFO:root:[green]User: 
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:{"name":"google_search", "arguments":{'query': 'George Mason NLP group courses'}}
+INFO:root:You're welcome! If you have any other requests or need further assistance, feel free to ask.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:my_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_scholar_agent: 
+INFO:root:{"name":"pdf_read", "arguments":{'pdf_file_path': 'Pdf_Read_Test.pdf'}}
 
-INFO:root:Calling function: google_search ...
+INFO:root:Calling function: pdf_read ...
 INFO:root:Done
 INFO:root:--------------------
-INFO:root:SearchResult(url=https://nlp.cs.gmu.edu/course/cs678-fall22/, title=CS678 Advanced Natural Language Processing, description=Aug 8, 2022 — In this class, we will study building computing systems that can process, understand, and communicate in natural language. The class will start ...)
-
-SearchResult(url=https://nlp.cs.gmu.edu/course/cs499-spring22/, title=CS499 Natural Language Processing - George Mason NLP, description=Nov 14, 2021 — In this class, we will study building computing systems that can process, understand, and communicate in natural language. This field is called ...)
-
-SearchResult(url=https://cs.gmu.edu/~antonis/author/george-mason-nlp/, title=George Mason NLP, description=The NLP group at George Mason Computer Science is interested in all aspects of NLP, with a focus on building tools for under-served languages. We are currently ...)
-
-SearchResult(url=https://cs.gmu.edu/~antonis/course/, title=Courses | George Mason NLP - GMU CS Department, description=Courses ; CS499-002 Natural Language Processing. Natural Language Processing course at George Mason CS. ; CS695-002 Natural Language Processing (Special Topics).)
-
-SearchResult(url=https://littleyuyu.github.io/, title=Ziyu Yao's Personal Website, description=Hello! I am an Assistant Professor of the Department of Computer Science at George Mason University, where I co-lead the George Mason NLP group.)
-
-SearchResult(url=https://catalog.gmu.edu/courses/ait/, title=Applied Information Technology (AIT) - GMU Catalog, description=AIT 526: Introduction to Natural Language Processing. 3 credits. This is an introductory course in natural language processing (NLP). It explores a broad set of ...)
-
-SearchResult(url=https://mainarke.github.io/ad/Fall22English.html, title=GMU-CS Recruitment Ad, description=The NLP group at GMU CS (https://nlp.cs.gmu.edu/) conducts research covering a wide range of topics such as machine translation, multilingual NLP, low ...)
-
-SearchResult(url=https://groups.google.com/g/women-in-machine-learning/c/nv8hKq8Yypg, title=Mid-Atlantic NLP Student Colloquium | Deadline Mar 24, description=The 10th annual Mid-Atlantic Student Colloquium on Speech, Language, and Learning (MASC-SLL) will be hosted at George Mason University (Arlington campus), ...)
-
-SearchResult(url=https://ischool.arizona.edu/events/2024/ziyu-yao, title=Colloquium with Ziyu Yao | UArizona iSchool, description=Join us online for the next iSchool colloquium, featuring Ziyu Yao, assistant professor of computer science at George Mason University.)
-
-SearchResult(url=https://cs.gmu.edu/media/syllabi/Fall2022/678AnastasopoulosA001.pdf, title=Syllabus CS 678, description=Aug 8, 2022 — Syllabus | George Mason NLP https://nlp.cs.gmu.edu/course/cs678-fall22/syllabus/. 1/3. Syllabus. CS 678. Advanced Natural Language Processing.)
-
-SearchResult(url=https://gucl.georgetown.edu/courses.php, title=Computational Linguistics @ Georgetown, description=This course will introduce students to the basics of Natural Language Processing (NLP), a field which combines insights from linguistics and computer science to ...)
+INFO:root:This is a test to make sure that the pdf_read plugin works ﬁne. It contains sample text generated 
+from lorem ipsum to compare and check. 
+What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+type and scrambled it to make a type specimen book. It has survived not only ﬁve centuries, but 
+also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+ 
+Why do we use it? 
+It is a long established fact that a reader will be distracted by the readable content of a page when 
+looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
+model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
+versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
+humour and the like). 
+End of the ﬁle. 
 INFO:root:--------------------
 INFO:root:my_scholar_agent is thinking...
 INFO:root:Done
 INFO:root:[blue]my_scholar_agent: 
-INFO:root:The George Mason NLP group offers several courses related to Natural Language Processing (NLP). Here are some of them:
+INFO:root:The content of the PDF file "Pdf_Read_Test.pdf" is as follows:
 
-1. [CS678 Advanced Natural Language Processing](https://nlp.cs.gmu.edu/course/cs678-fall22/): This course focuses on building computing systems that can process, understand, and communicate in natural language.
+This is a test to make sure that the pdf_read plugin works fine. It contains sample text generated from lorem ipsum to compare and check. 
 
-2. [CS499 Natural Language Processing](https://nlp.cs.gmu.edu/course/cs499-spring22/): This course also focuses on building computing systems that can process, understand, and communicate in natural language.
+What is Lorem Ipsum? 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
 
-3. [CS695-002 Natural Language Processing (Special Topics)](https://cs.gmu.edu/~antonis/course/): This course appears to be a special topics course in NLP, though further details would be needed for a full understanding of the course content.
+Why do we use it? 
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
 
-4. [AIT 526: Introduction to Natural Language Processing](https://catalog.gmu.edu/courses/ait/): This is an introductory course in NLP offered by the Applied Information Technology department.
-
-Please note that the availability of these courses may vary by semester, and it's best to check the official George Mason University course catalog or the NLP group's website for the most accurate and up-to-date information.
+End of the file.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:my_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_scholar_agent: 
+INFO:root:According to the PDF, Lorem Ipsum originated as a standard dummy text for the printing and typesetting industry since the 1500s. It was created when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived five centuries and the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:my_scholar_agent is thinking...
+INFO:root:Done
+INFO:root:[blue]my_scholar_agent: 
+INFO:root:Lorem Ipsum became popular in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. It gained more popularity with desktop publishing software like Aldus PageMaker which included versions of Lorem Ipsum.
 INFO:root:Done
 INFO:root:[green]User: 
